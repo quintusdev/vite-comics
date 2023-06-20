@@ -5,21 +5,20 @@ import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
-  AppHeader,
-  AppMain,
-  AppFooter
+    AppHeader,
+    AppMain,
+    AppFooter
   }
 }
 </script>
 
 <template>
-  <div>
-    <AppHeader />
-    <AppMain />
-    <AppFooter />
-  </div>
+  <AppHeader />
+  <AppMain />
+  <AppFooter /> 
 </template>
 
-<style>
-
+<style lang="scss">
+  @use './styles/generals.scss' as *;
+	@use './styles/partials/variables';
 </style>

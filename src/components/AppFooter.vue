@@ -3,11 +3,15 @@
 </script>
 
 <template>
-    <div>
-        <h2>footer</h2>
+    <div class="container">
+        <div class="row">
+            <h1>Footer</h1>
+        </div>
     </div>
 </template>
 
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    .container{
+        background-image: url(../../public/footer-bg.jpg);
+    }
 </style>
