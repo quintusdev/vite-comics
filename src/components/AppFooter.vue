@@ -62,6 +62,21 @@
             </div>
         </div>
     </div>
+    <div class="container3">
+        <div class="row">
+            <div class="sign">
+            <button>SIGN-UP NOW!</button>
+            </div>
+            <div class="follow_button">
+                <h3>FOLLOW US</h3>
+                    <a href="#"><img src="../assets/footer-facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../assets/footer-twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="../assets/footer-youtube.png" alt="Youtube"></a>
+                    <a href="#"><img src="../assets/footer-pinterest.png" alt="Pinterest"></a>
+                    <a href="#"><img src="../assets/footer-periscope.png" alt="Periscope"></a>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -81,7 +96,33 @@
 
         .flex{
             display: flex;
-            margin: 70px;
+            justify-content: space-between;
+        }
+
+        ul{
+            list-style-type: none;
+            padding: 50px 30px 40px 0;
+
+            li{
+                line-height: 1rem;
+                h4{
+                    font-size: 20px;
+                    color: #fff;
+                    margin: 15px 0;
+                }
+
+                a{
+                    color: #959595;
+                    text-decoration: none;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .logofoot img {
+            width: 90%;
+
         }
     }
 
@@ -119,32 +160,42 @@
         } 
     }
 
+    .container3 {
+        width: 100%;
+        background: #303030;
+        padding: 40px 0;
 
-    ul{
-        list-style-type: none;
-        margin: 0 20px;
-        padding: 15px 30px;
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
 
-        li{
+        button{
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            border: 4px solid #0282f9;
+            padding: 20px;
+            background: #303030;
+        }
 
-            h4{
+        .follow_button{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            h3{
                 font-size: 20px;
-                color: #fff;
                 font-weight: 700;
-                margin: 15px 0;
+                color: #0282f9;
+                margin-right: 15px;
             }
 
             a{
-                color: #959595;
-                text-decoration: none;
-                font-size: 10px;
-                font-weight: 600;
+                padding: 0 10px;
             }
         }
-    }
-
-    .logofoot img {
-        width: 90%;
 
     }
+
 </style>
