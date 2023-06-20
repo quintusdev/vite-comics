@@ -57,9 +57,6 @@
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </div>
-            <div class="logofoot">
-                <img src="../assets/dc-logo-bg.png" alt="Logo DC Big">
-            </div>
         </div>
     </div>
     <div class="container3">
@@ -96,7 +93,10 @@
 
         .flex{
             display: flex;
-            justify-content: space-between;
+            width: 100%;
+            background-image: url(../assets/dc-logo-bg.png);
+            background-repeat: no-repeat;
+            background-position: right center;
         }
 
         ul{
@@ -163,7 +163,7 @@
     .container3 {
         width: 100%;
         background: #303030;
-        padding: 40px 0;
+        padding: 30px 0;
 
         .row{
             display: flex;
