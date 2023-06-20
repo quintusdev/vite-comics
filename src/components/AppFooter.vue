@@ -20,24 +20,47 @@
     </div>
     <div class="container">
         <div class="row">
-            <!-- <ul>
-               
-                <li>
-                    <a href="#"><img src="../assets/buy-comics-digital-comics.png" alt="Img Digital Comic">DIGITAL COMICS</a>
-                </li>
-                <li>
-                    <a href="#"><img src="../assets/buy-comics-merchandise.png" alt="Img Merch">DC MERCHANDISE</a>
-                </li>
-                <li>
-                    <a href="#"><img src="../assets/buy-comics-subscriptions.png" alt="Img Sub">SUBSCRIPTION</a>
-                </li>
-                <li>
-                    <a href="#"><img src="../assets/buy-comics-shop-locator.png" alt="Img Shop Location">COMIC SHOP LOCATOR</a>
-                </li>
-                <li>
-                    <a href="#"><img src="../assets/buy-dc-power-visa.svg" alt="Img Digital Comic">DC POWER VISA</a>
-                </li>
-            </ul> -->
+            <div class="flex">
+                <ul>  
+                    <li><a href="#"><h4>DC COMICS</h4></a></li>
+                    <li><a href="#">Characters</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+                <ul>  
+                    <li><a href="#"><h4>SHOP</h4></a></li>
+                    <li><a href="#">Shop DC</a></li>
+                    <li><a href="#">Shop DC Collectibles</a></li>
+                </ul>
+
+                <ul>  
+                    <li><a href="#"><h4>DC</h4></a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Privacy policy (new)</a></li>
+                    <li><a href="#">AD Choices</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Subscription</a></li>
+                    <li><a href="#">Talent Workshop</a></li>
+                    <li><a href="#">CPSC Certificates</a></li>
+                    <li><a href="#">Ratings</a></li>
+                    <li><a href="#">Shop Help</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                <ul>  
+                    <li><a href="#"><h4>SITES</h4></a></li>
+                    <li><a href="#">DC</a></li>
+                    <li><a href="#">MAD Magazine</a></li>
+                    <li><a href="#">DC Kids</a></li>
+                    <li><a href="#">DC Universe</a></li>
+                    <li><a href="#">DC Power Visa</a></li>
+                </ul>
+            </div>
             <img src="../assets/dc-logo-bg.png" alt="Logo DC Big">
         </div>
     </div>
