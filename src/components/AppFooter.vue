@@ -30,13 +30,10 @@
                     <li><a href="#">Games</a></li>
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">News</a></li>
-                </ul>
-                <ul>  
                     <li><a href="#"><h4>SHOP</h4></a></li>
                     <li><a href="#">Shop DC</a></li>
                     <li><a href="#">Shop DC Collectibles</a></li>
                 </ul>
-
                 <ul>  
                     <li><a href="#"><h4>DC</h4></a></li>
                     <li><a href="#">Terms Of Use</a></li>
@@ -51,7 +48,6 @@
                     <li><a href="#">Shop Help</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
-
                 <ul>  
                     <li><a href="#"><h4>SITES</h4></a></li>
                     <li><a href="#">DC</a></li>
@@ -61,7 +57,9 @@
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </div>
-            <img src="../assets/dc-logo-bg.png" alt="Logo DC Big">
+            <div class="logofoot">
+                <img src="../assets/dc-logo-bg.png" alt="Logo DC Big">
+            </div>
         </div>
     </div>
 </template>
@@ -71,10 +69,20 @@
 
     .container{
         background-image: url(../../public/footer-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         display: flex;
         align-items: center;
-        padding: 40px 0;
-        height: 300px;
+
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex{
+            display: flex;
+            margin: 70px;
+        }
     }
 
     .container2 {
@@ -111,7 +119,32 @@
         } 
     }
 
-    
 
-    
+    ul{
+        list-style-type: none;
+        margin: 0 20px;
+        padding: 15px 30px;
+
+        li{
+
+            h4{
+                font-size: 20px;
+                color: #fff;
+                font-weight: 700;
+                margin: 15px 0;
+            }
+
+            a{
+                color: #959595;
+                text-decoration: none;
+                font-size: 10px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .logofoot img {
+        width: 90%;
+
+    }
 </style>
