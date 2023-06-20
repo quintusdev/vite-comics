@@ -15,6 +15,18 @@
                 <li>
                     <a href="#"><img src="../assets/buy-comics-digital-comics.png" alt="Img Digital Comic">DIGITAL COMICS</a>
                 </li>
+                <li>
+                    <a href="#"><img src="../assets/buy-comics-merchandise.png" alt="Img Merch">DC MERCHANDISE</a>
+                </li>
+                <li>
+                    <a href="#"><img src="../assets/buy-comics-subscriptions.png" alt="Img Sub">SUBSCRIPTION</a>
+                </li>
+                <li>
+                    <a href="#"><img src="../assets/buy-comics-shop-locator.png" alt="Img Shop Location">COMIC SHOP LOCATOR</a>
+                </li>
+                <li>
+                    <a href="#"><img src="../assets/buy-dc-power-visa.svg" alt="Img Digital Comic">DC POWER VISA</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -31,7 +43,7 @@
 
     .container.blue {
         background: #0282f9;
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     h2{
@@ -42,6 +54,7 @@
         list-style-type: none;
         display: flex;
         align-items: center;
+        justify-content: space-around;
 
         li{
             display: flex;
