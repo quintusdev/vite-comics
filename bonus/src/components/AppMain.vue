@@ -91,39 +91,60 @@ export default {
     </div>
     <div class="container">
         <div class="row">
-            <AppCard v-for="(comic, index) in books" :key="index" :mybooks="comic"/>            
+            <AppCard v-for="(comic, index) in books" :key="index" :mybooks="comic"/>
+            <button id="load">LOAD MORE</button>
+            <button id="current">CURRENT SERIES</button>           
         </div>
-
     </div>
 </template>
 
 <style lang="scss" scoped>
     @use '../styles/generals.scss' as *;
-    .container{
-        background-color: black;
-        padding: 30px 0;
-    }
-
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .card{
-        width: calc(100% / 6);    
-        height: 330px;
-        padding: 5px;
-    }
-
     .jumbotron{
         background-image: url(../../public/jumbotron.jpg);
         width: 100%;
-        height: 400px;
+        height: 500px;
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .container{
+        background-color: black;
+        padding: 20px 0;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            padding-top: 20px;
+            .card{
+                width: calc(100% / 6);
+            }
 
-    h2{
-        color: #fff;
+            h2{
+                color: #fff;
+            }
+
+            button#current{
+                color: #fff;
+                background-color: #0074e8;
+                position: absolute;
+                top: -50px;
+                left: 0;
+                padding: 12px 50px;
+                font-size: 20px;
+                font-weight: 700;
+                border: #0074e8;
+            }
+
+            button#load{
+                color: #fff;
+                background-color: #0074e8;
+                padding: 10px 45px;
+                font-size: 12px;
+                font-weight: 700;
+                border: #0074e8;
+                margin-top: 40px;
+            }
+        }
     }
 </style>
