@@ -70,5 +70,7 @@
         "price": "$16.99",
         "series": "Catwoman",
         "type": "graphic novel"
-    },
+    }
 ]
+
+export default books;
