@@ -128,7 +128,6 @@
             padding: 20px;
             background: #303030;
         }
-
         .follow_button{
             display: flex;
             justify-content: space-between;
@@ -147,5 +146,4 @@
         }
 
     }
-
 </style>

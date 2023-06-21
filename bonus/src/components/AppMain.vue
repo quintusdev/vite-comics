@@ -3,9 +3,12 @@
 </script>
 
 <template>
+    <div class="jumbotron">
+    </div>
     <div class="container">
         <div class="row">
-            <h2>--&gt; CONTENT HERE &lt;--</h2>
+            
+            
         </div>
     </div>
 </template>
@@ -17,6 +20,14 @@
         display: flex;
         align-items: center;
         padding: 50px 0;
+    }
+
+    .jumbotron{
+        background-image: url(../../public/jumbotron.jpg);
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     h2{

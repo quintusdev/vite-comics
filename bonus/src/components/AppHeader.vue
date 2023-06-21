@@ -43,7 +43,6 @@ export default {
 }
 
 ul{
-    list-style-type: none;
     display: flex;
     align-items: center;
 
@@ -52,6 +51,7 @@ ul{
         align-items: center;
         padding: 10px;
         height: 100%;
+        border-bottom: 5px solid #fff;
 
         &:hover{
             border-bottom: 5px solid #0282f9;
@@ -60,6 +60,7 @@ ul{
         a{
             text-decoration: none;
             font-size: 12px;
+            color: black;
             font-weight: 600;
      
             &:hover{
