@@ -93,6 +93,7 @@ export default {
         <div class="row">
             <AppCard v-for="(comic, index) in books" :key="index" :mybooks="comic"/>            
         </div>
+
     </div>
 </template>
 
@@ -100,9 +101,18 @@ export default {
     @use '../styles/generals.scss' as *;
     .container{
         background-color: black;
+        padding: 30px 0;
+    }
+
+    .row{
         display: flex;
-        align-items: center;
-        padding: 50px 0;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: calc(100% / 6);    
+        height: 330px;
+        padding: 5px;
     }
 
     .jumbotron{

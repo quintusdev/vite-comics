@@ -10,28 +10,28 @@ export default {
     <div class="card">
         <img :src="mybooks.thumb">
         <span>{{ mybooks.series }}</span>
-        <p><strong>Type: {{ mybooks.type }}</strong></p>
+        <span><strong>Type: {{ mybooks.type }}</strong></span>
+        <p>Price: {{ mybooks.price }}</p>
     </div>
 </template>
 
 <style lang="scss" scoped>
-    .card{
+    
+    img{
+        width: 160px;
+        height: 150px;
+
+        img:hover{
+            opacity: 0.5;
+        }
+    }
+
+    span, p{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border: 2px solid #fff;
-
-        img{
-            width: 250px;
-            height: 250px;
-            padding: 5px 5px;
-        }
-
-        span, p{
-            padding: 30px;
-            color: #fff;
-            font-size: 15px;
-            font-weight: 700;
-        }
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        padding-left: 15px;
+        margin: 5px 0;
     }
 </style>
