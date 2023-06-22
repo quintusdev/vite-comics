@@ -6,6 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="flex">
+                <!-- inserisco le liste del footer come link -->
                 <ul>  
                     <li><a href="#"><h4>DC COMICS</h4></a></li>
                     <li><a href="#">Characters</a></li>
@@ -47,9 +48,11 @@
     <div class="container3">
         <div class="row">
             <div class="sign">
+            <!-- Bottone per registrarsi -->
             <button>SIGN-UP NOW!</button>
             </div>
             <div class="follow_button">
+                <!-- inserimento bottoni ai link social -->
                 <h3>FOLLOW US</h3>
                     <a href="#"><img src="../assets/footer-facebook.png" alt="Facebook"></a>
                     <a href="#"><img src="../assets/footer-twitter.png" alt="Twitter"></a>

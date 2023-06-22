@@ -1,10 +1,12 @@
 <script>
+/* dico al pc che esistono i file inseriti */
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import AppIcon from './components/AppIcon.vue'
 import AppFooter from './components/AppFooter.vue'
 
 export default {
+  /* dico al pc che può utilizzare i componenti */
   components: {
     AppHeader,
     AppMain,

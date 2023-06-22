@@ -1,5 +1,6 @@
 <script>
 export default {
+    /* Array che contiene i link dell'header */
     data() {
         return {
             links: [
@@ -25,7 +26,7 @@ export default {
             <!-- Inserisco il logo principale -->
             <img src="../../public/dc-logo.png" alt="Logo DC">
             <ul>
-                <!-- creo la lista con i link delle varie pagine -->
+                <!-- creo il menù con i link alle varie pagine -->
                 <li v-for="(link, index) in links" :class="link.active ? 'active' : ''" :key="index">
                     <a :href="link.link">{{ link.label }}</a>
                 </li>

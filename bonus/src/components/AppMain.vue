@@ -2,6 +2,7 @@
 import AppCard from './AppCard.vue';
 
 export default {
+    /* dico che può utilizzare il file e l'array di oggetti dentro data */
     components: { 
         AppCard,
     },
@@ -91,6 +92,7 @@ export default {
     </div>
     <div class="container">
         <div class="row">
+            <!-- il ciclo V-FOR visulizzare le info dell'array nel data precedente -->
             <AppCard v-for="(comic, index) in books" :key="index" :mybooks="comic"/>
             <button id="load">LOAD MORE</button>
             <button id="current">CURRENT SERIES</button>           
@@ -100,6 +102,8 @@ export default {
 
 <style lang="scss" scoped>
     @use '../styles/generals.scss' as *;
+
+    /* style jumbotron */
     .jumbotron{
         background-image: url(../../public/jumbotron.jpg);
         width: 100%;
@@ -107,6 +111,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
     }
+    /* style contenuto principale e bottoni */
     .container{
         background-color: black;
         padding: 20px 0;

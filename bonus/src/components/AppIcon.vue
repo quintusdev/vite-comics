@@ -1,5 +1,6 @@
 <script>
 export default{
+    /* style sezione navbar centrale */
     data() {
         return {
             navs: [
@@ -17,6 +18,7 @@ export default{
 <template>
     <div class="container2">
         <div class="row">
+            <!-- con il V-FOR inserisco ogni icona con la relativa caption -->
             <div class="flex" v-for="(nav, index) in navs" :key="index">
                 <img :src="nav.icon" alt="Img Icon Blue">
                 <span>{{ nav.text }}</span>
@@ -26,7 +28,7 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/partials/variables' as*;
+@use '../styles/partials/variables' as *;
 .container2 {
     display: flex;
     align-items: center;
